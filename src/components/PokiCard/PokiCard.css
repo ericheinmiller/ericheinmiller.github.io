@@ -1,0 +1,275 @@
+.pokicard-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 17vh;
+  margin: 1.8%;
+  padding: 3%;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.2s all;
+}
+.pokicard-container:hover {
+  cursor: pointer;
+}
+
+.pokicard-container:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.upper-pokicard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+}
+
+.lower-pokicard {
+  display: flex;
+  flex-grow: 2;
+}
+
+.poki-typings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+/* poki-typing background color should be based on types */
+.poki-typing {
+  list-style-type: none;
+  width: fit-content;
+  margin-top: 5%;
+  padding: 5% 15%;
+  border-radius: 10px;
+}
+
+.poki-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.poki-image-container img {
+  height: 14vh;
+}
+/* all master typing colors */
+/*
+18 total('/' on each color finished):
+Normal /
+Fire /
+Water/
+Grass/
+Electric/
+Ice /
+Fighting /
+Poison /
+Ground /
+Flying /
+Psychic /
+Bug /
+Rock /
+Ghost /
+Dark *Not in the first 151*
+Dragon /
+Steel *Not in the first 151*
+Fairy /
+*/
+
+/* keep alphabetical you madman */
+
+/* all typings will have sets of three colors:
+ one for the card's background(eg: grass), 
+ font color(eg: grassTwo) for individual 
+ ID based off primary typing, and 
+ typing background(eg: grassThree) */
+
+.bug {
+  background-color: #4ec34b;
+}
+.bugTwo {
+  color: #79c477;
+}
+.bugThree {
+  background-color: #21c21c;
+}
+
+.dragon {
+  background-color: #39c1d3;
+}
+
+.dragonTwo {
+  color: #58a1ab;
+}
+
+.dragonThree {
+  background-color: #0fa3b6;
+}
+
+.electric {
+  background-color: #ffce4b;
+}
+.electricTwo {
+  color: #ffe24b;
+}
+.electricThree {
+  background-color: #fbc243;
+}
+
+.fairy {
+  background-color: #ffc0ff;
+}
+
+.fairyTwo {
+  color: #bd94bd;
+}
+
+.fairyThree {
+  background-color: #f9a8f9;
+}
+
+.fighting {
+  background-color: #ec7b53;
+}
+
+.fightingTwo {
+  color: #f0a58b;
+}
+
+.fightingThree {
+  background-color: #ed693a;
+}
+
+.fire {
+  background-color: #f7776a;
+}
+
+.fireTwo {
+  color: #f45545;
+}
+
+.fireThree {
+  background-color: #f66858;
+}
+
+.flying {
+  background-color: #2994c5;
+}
+
+.flyingTwo {
+  color: #649cb6;
+}
+
+.flyingThree {
+  background-color: #098fcc;
+}
+
+.ghost {
+  background-color: #6f33dc;
+}
+
+.ghostTwo {
+  color: #7b4ad6;
+}
+
+.ghostThree {
+  background-color: #5f1cda;
+}
+
+.grass {
+  background-color: #2bdab1;
+}
+
+.grassTwo {
+  color: #20c09c;
+}
+
+.grassThree {
+  background-color: #62e5c6;
+}
+
+.ground {
+  background-color: #ca817a;
+}
+
+.groundTwo {
+  color: #d09d98;
+}
+
+.groundThree {
+  background-color: #c7766e;
+}
+
+.ice {
+  background-color: #3cf7eb;
+}
+
+.iceTwo {
+  color: #9df8f1;
+}
+
+.iceThree {
+  background-color: #22f4e7;
+}
+
+.normal {
+  background-color: #bebebe;
+}
+.normalTwo {
+  color: #a9a9a9;
+}
+.normalThree {
+  background-color: #d3d3d3;
+}
+
+.poison {
+  background-color: #9e5bba;
+}
+
+.poisonTwo {
+  color: #ac7ac1;
+}
+
+.poisonThree {
+  background-color: #994eb9;
+}
+
+.psychic {
+  background-color: #b13bc3;
+}
+
+.psychicTwo {
+  color: #b96fc4;
+}
+
+.psychicThree {
+  background-color: #ad22c2;
+}
+
+.rock {
+  background-color: #5a4d41;
+}
+
+.rockTwo {
+  color: #483b2f;
+}
+
+.rockThree {
+  background-color: #584636;
+}
+
+.water {
+  background-color: #58abf7;
+}
+
+.waterTwo {
+  color: #7abaf4;
+}
+
+.waterThree {
+  background-color: #3c9ef7;
+}

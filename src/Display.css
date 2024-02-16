@@ -1,0 +1,67 @@
+.display {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paper {
+  bottom: -50%;
+  position: absolute;
+  height: 50vh;
+  background-color: white;
+  width: 30vw;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  align-self: flex-end;
+  z-index: 0;
+}
+
+.wrapper {
+  transition: .5s;
+  bottom: 0 !important;
+}
+
+.infoBar {
+  margin-top: 20%;
+  padding: 3%;
+  width: 100%;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bolder;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.poki-typings-container-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.poki-typing-display {
+  list-style-type: none;
+  width: fit-content;
+  margin-right: 5%;
+  padding: 5% 15%;
+  border-radius: 10px;
+  color: white;
+}
+
+.poki-image-container-display {
+  transform: translate(-50%);
+  position: absolute;
+  z-index: 1;
+}
+
+.poki-image-container-display img {
+  height: 40vh;
+}
